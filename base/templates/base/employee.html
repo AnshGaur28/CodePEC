@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="gallery.css">
+
+    <title>Employee</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body{
+        background-color: rgb(220, 161, 145);
+        border: 14px solid black;
+        background: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/summer-background-abstract-background-wallpaper-use-for-presentation_HDDYoJOhMg_thumb.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+      }
+      h1{
+        display: grid;
+        justify-content: center;
+      }
+      .division{
+        margin-left: 150px;
+      }
+    </style>
+  </head>
+  <body>
+
+
+
+    <nav class="search">
+      
+      <span><input type="text" id="searchbar" onkeyup="search()" placeholder="Search here"></span>
+    </nav>
+    <h1 class="text-align-center justify-content-center ">EMPLOYEE MANAGEMENT</h1>
+
+<!--        GALLERY CODE            -->
+    <div class="[ container-fluid ]">
+      <h2 class="division">Doctors</h2>
+      <div id="employee-gallery" class="[ row ] ">
+
+            <!--employee nr 1-->
+            <div id="henrik-henriksen" class="[ col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ][ employee ]">
+              <i class="[ fas fa-info ][ employee__info-button ]"></i>
+              <div class="[ employee__info ]"> 
+                  <p class="[ employee__info--text ]">
+                    <span class="[ employee__info--title ]">Henrik Henriksen</span><br>
+                    He is an esteemed medical practioner working as a Cardialogist with us for over 12 years and has an experience of about 120+ surgeries .
+                    <br>
+                    Salary : $ 100,000 / month . 
+
+                    
+                    <a href="attendance.html">Attendence</a>
+                  </p>
+              </div>
+              <p class="[ employee__name ]">Henrik Henriksen</p><!--CHANGE NAME HERE-->
+            </div>
+
+            <!--employee nr 2-->
+            <div id="yvonne-skogstad" class="[ col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ][ employee ]"><!--CHANGE ID HERE-->
+              <i class="[ fas fa-info ][ employee__info-button ]"></i>
+              <div class="[ employee__info ]"> 
+                  <p class="[ employee__info--text ]">
+                    <span class="[ employee__info--title ]">Yvonne Skogstad</span><br>
+                    
+                    He is an esteemed medical practioner working as a Urologist with us for over 10 years and has an experience of 100+ surgeries .
+                    <br>
+                    Salary : $90,000 
+                    <br>
+                    <a href="attendanc.html">Attendence</a>
+                    
+                  </p>
+                  
+                  <!-- <a href="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23A79B8E&ctz=Asia%2FKolkata&showPrint=0&showNav=1&src=Y180MjdiOTZhNGNhMTFkOTViYzE4OTBmYmQyNzliYzIwYjBkYjlmOWVkMjQwNzFkNTAzM2UyNTk3NjI5OWI0MjFkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23009688" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no">Calender</a> -->
+              </div>
+              <p class="[ employee__name ]">David loremson</p><!--CHANGE NAME HERE-->
+            </div>
+
+            <!--employee nr 3-->
+            <div id="third" class="[ col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ][ employee ]" ><!--CHANGE ID HERE-->
+              
+              <i class="[ fas fa-info ][ employee__info-button ]"></i>
+
+              <div class="[ employee__info ]"> 
+                  <p class="[ employee__info--text ]">
+                    <span class="[ employee__info--title ]">Dog Dogster</span><br>
+                    He is an esteemed medical practioner working as a Orthologist with us for over 14 years and has an experience of 130+ surgeries .
+                    <br>
+                    Salary : $95,000 
+                    <br>
+
+                    <a href="attendance.html">Attendence</a>
+                  </p>
+              </div>
+              <p class="[ employee__name ]">Dog Dogster</p><!--CHANGE NAME HERE-->
+            </div>
+
+            
+
+      </div>
+
+
+
+      <h2 class="division">Finance</h2>
+      <div id="employee-gallery" class="[ row ] ">
+          
+            <!--employee nr 4-->
+          <div id="john-johnsen" class="[ col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ][ employee ]"><!--CHANGE ID HERE-->
+            <i class="[ fas fa-info ][ employee__info-button ]"></i>
+            <div class="[ employee__info ]"> 
+                <p class="[ employee__info--text ]">
+                  <span class="[ employee__info--title ]">John Johnsen</span><br><!--CHANGE NAME HERE-->
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<!--CHANGE TEXT ABOUT PERSON HERE-->
+
+                  <a href="attendance.html">Attendence</a>
+                </p>
+            </div>
+            <p class="[ employee__name ]">John Johnsen</p><!--CHANGE NAME HERE-->
+          </div>
+          
+
+          <!--employee nr 5-->
+          <div id="x" class="[ col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ][ employee ]"><!--CHANGE ID HERE-->
+            <i class="[ fas fa-info ][ employee__info-button ]"></i>
+            <div class="[ employee__info ]"> 
+                <p class="[ employee__info--text ]">
+                  <span class="[ employee__info--title ]">Tiny Dog</span><br><!--CHANGE NAME HERE-->
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<!--CHANGE TEXT ABOUT PERSON HERE-->
+
+                  <a href="attendance.html">Attendence</a>
+                </p>
+            </div>
+            <p class="[ employee__name ]">Tiny Dog</p><!--CHANGE NAME HERE-->
+          </div>
+          
+
+          <!--employee nr 6-->
+          <div id="frida-fransen" class="[ col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ][ employee ]"><!--CHANGE ID HERE-->
+            <i class="[ fas fa-info ][ employee__info-button ]"></i>
+            <div class="[ employee__info ]"> 
+                <p class="[ employee__info--text ]">
+                  <span class="[ employee__info--title ]">Frida Fransen</span><br><!--CHANGE NAME HERE-->
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<!--CHANGE TEXT ABOUT PERSON HERE-->
+
+                  <a href="attendance.html">Attendence</a>
+                </p>
+            </div>
+            <p class="[ employee__name ]">Frida Fransen</p><!--CHANGE NAME HERE-->
+          </div>
+
+      </div>
+
+
+
+      <h2 class="division">Customer-Services</h2>
+      <div id="employee-gallery" class="[ row ] ">
+        
+          <!--employee nr 7-->
+        <div id="a" class="[ col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ][ employee ]"><!--CHANGE ID HERE-->
+          <i class="[ fas fa-info ][ employee__info-button ]"></i>
+          <div class="[ employee__info ]"> 
+              <p class="[ employee__info--text ]">
+                <span class="[ employee__info--title ]">Ankit</span><br><!--CHANGE NAME HERE-->
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<!--CHANGE TEXT ABOUT PERSON HERE-->
+
+                <a href="attendance.html">Attendence</a>
+              </p>
+          </div>
+          <p class="[ employee__name ]">Ankit</p><!--CHANGE NAME HERE-->
+        </div>
+        
+
+        <!--employee nr 8-->
+        <div id="b" class="[ col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ][ employee ]"><!--CHANGE ID HERE-->
+          <i class="[ fas fa-info ][ employee__info-button ]"></i>
+          <div class="[ employee__info ]"> 
+              <p class="[ employee__info--text ]">
+                <span class="[ employee__info--title ]"> Adam </span><br><!--CHANGE NAME HERE-->
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<!--CHANGE TEXT ABOUT PERSON HERE-->
+
+                <a href="attendance.html">Attendence</a>
+              </p>
+          </div>
+          <p class="[ employee__name ]">Adam</p><!--CHANGE NAME HERE-->
+        </div>
+        
+
+        <!--employee nr 9-->
+        <div id="c" class="[ col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ][ employee ]"><!--CHANGE ID HERE-->
+          <i class="[ fas fa-info ][ employee__info-button ]"></i>
+          <div class="[ employee__info ]"> 
+              <p class="[ employee__info--text ]">
+                <span class="[ employee__info--title ]">Frigg</span><br><!--CHANGE NAME HERE-->
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<!--CHANGE TEXT ABOUT PERSON HERE-->
+
+                <a href="attendance.html">Attendence</a>
+              </p>
+          </div>
+          <p class="[ employee__name ]"> Frigg</p><!--CHANGE NAME HERE-->
+        </div>
+
+    </div>
+
+      
+
+</div>
+<!--/ NO NEED TO PASTE MORE THAN THIS-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="gallery-plugin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #4F1C27;
+  font-size: 18px;
+}
+
+#employee-gallery {
+  margin: 5% 10%;
+}
+
+.employee {
+  padding: 0;
+  width: 100%;
+  height: 33vw;
+  border-left: 15px solid white;
+  border-right: 15px solid white;
+  border-bottom: 40px solid white;
+}
+@media screen and (max-width: 991px) {
+  .employee {
+    height: 50vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .employee {
+    height: 80vw;
+  }
+}
+.employee__info--title {
+  font-size: 1.5vw;
+  line-height: 0.8em;
+  color: #4F1C27;
+  font-weight: bold;
+}
+@media screen and (max-width: 991px) {
+  .employee__info--title {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 420px) {
+  .employee__info--title {
+    font-size: 1em;
+  }
+}
+.employee__info--text {
+  position: absolute;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+}
+@media screen and (max-width: 420px) {
+  .employee__info--text {
+    font-size: 0.8em;
+  }
+}
+.employee__name {
+  position: absolute;
+  padding: 10px;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  font-size: 1.5vw;
+  line-height: 0.8em;
+  color: #4F1C27;
+  background-color: #F8CDC3;
+  width: 100%;
+  font-weight: bold;
+}
+.employee__name:hover {
+  cursor: default;
+}
+@media screen and (max-width: 991px) {
+  .employee__name {
+    font-size: 1.2em;
+  }
+}
+.employee__info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #F8CDC3;
+  overflow: hidden;
+  opacity: 0.9;
+  display: none;
+}
+.employee__info-button {
+  position: relative;
+  font-size: 3vw;
+  margin: 20px;
+  z-index: 3;
+  background-color: transparent;
+  color: #4F1C27;
+  border: none;
+}
+.employee__info-button:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 991px) {
+  .employee__info-button {
+    font-size: 1.2em;
+  }
+}
+
+#henrik-henriksen {
+  background: url(/images/ashkan-forouzani-DPEPYPBZpB8-unsplash.jpg);
+  background-size: cover;
+  visibility: visible;
+}
+
+#yvonne-skogstad {
+  background: url(https://images.unsplash.com/photo-1527613426441-4da17471b66d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852&q=80);
+  background-size: cover;
+  visibility: visible;
+}
+
+#third {
+  background: url(https://images.unsplash.com/photo-1587500154541-1cafd74f0efc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  background-size: cover;
+  visibility: visible;
+}
+
+#john-johnsen {
+  background: url(/images/pexels-photo-1669151.jpeg);
+  background-size: cover;
+  visibility: visible;
+}
+
+#x {
+  background: url(/images/pexels-photo-555790.png);
+  background-size: cover;
+  visibility: visible;
+}
+
+#frida-fransen {
+  background: url(../images/pexels-photo-1669164.jpeg);
+  background-size: cover;
+  visibility: visible;
+}
+
+
+#a {
+  background: url(https://blog.megaventory.com/wp-content/uploads/2021/06/CUSTOMER-SERVICE.jpg);
+  background-size: cover;
+  visibility: visible;
+}#b {
+  background: url(https://www.myperfectresume.com/wp-content/uploads/2020/09/define-excellent-customer-service.jpg);
+  background-size: cover;
+  visibility: visible;
+}#c {
+  background: url(/images/pexels-photo-842980.jpeg);
+  background-size: cover;
+  visibility: visible;
+}
+
+.search{
+  display: grid;
+  justify-content: right;
+}
+
+.searchbar{
+  width: 100%;
+}

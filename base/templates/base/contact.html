@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-US</title>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/js/bootstrap.js">
+    <link rel="stylesheet" href="">
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .navbar{
+            display: grid;
+            justify-content: center;
+            background-color: rgb(95, 168, 168);
+            min-width: 400px;
+        }
+        .tagline{
+            font-style: italic;
+        }
+        .text-words{
+            padding: 20px;
+            margin-left: 20px;
+            display: grid;
+        }
+
+        .row{
+            overflow: hidden;
+        }
+        img{
+            height: 200px;
+            width: 100%;
+            border: 4px solid black;
+        }
+        .details{
+            display: grid;
+            justify-content: left;
+
+
+            align-items: center;
+        }
+        .format{
+            display: grid;
+            justify-content: left;
+        }
+
+        input{
+            margin: 5px;
+        }
+        #enquiry{
+            margin-right: 5px;
+        }
+        label{
+            margin: 10px;
+        }
+        .contact-block > h2{
+            display: grid;
+            justify-content: center;
+            
+
+        }
+        .contact-block{
+            background-color:antiquewhite;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="display-3 fw-bold">
+            Contact-Us
+        </div>
+    </nav>
+
+    <!-- tag--line -->
+    <section class="tagline lead p-2 ms-5  display-2 lead">
+        Need any help 
+    </section>
+    <section class="text-secondary display-5 px-5 ms-5">
+            feel free top contact us
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-8">
+                <section class="text-words">Apollo Hospitals is always looking to make things easier for you. Our aim is to provide our customers with the best medical facilities, constant care, and reliable support. If you would like to get in touch with a doctor from a specific department, would like some specific information about the services we provide, or just have a question for us, please fill up the Form given below and we will get back to you.</section>
+            </div>
+            <div class="col-md-6 col-lg-4 image " row-span="2">
+                <img src="media/michael-daniels-ylUGx4g6eHk-unsplash.jpg" alt="" >
+                
+            </div>
+        </div>
+
+        
+        
+
+        <div class="row  details">
+
+            <form action="">
+                <span>Type of Query :</span>
+                <input type="radio" name="enquiry" id="enquiry" value="enquiry">
+                <label for="enquiry">
+                    Enquiry
+                </label>
+                <input type="radio" name="enquiry" id="enquiry" value="enquiry">
+                <label for="enquiry">
+                    complaint
+                </label><input type="radio" name="enquiry" id="enquiry" value="enquiry">
+                <label for="enquiry">
+                    services
+                </label>
+            </form>
+        </div>
+
+        
+
+
+            <div class="row">
+                <div class="col-2">
+                    Name : 
+                    <br>
+                    <input type="text" class="input">
+                </div>
+
+                <div class="col-2">
+                    City : 
+                    <br>
+                    <input type="text" class="input">
+                </div>
+                
+                <div class="col-2">
+                    Email :
+                    <br> <input type="email"  class="input">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    Phone : <br>
+                     <input type="number" class="input">
+                </div>
+                <div class="col-2">
+                    EHR-ID : <br>
+                     <input type="number" class="input">
+                </div>
+                <div class="col-2">
+                    <Address>
+                        Address : <br>
+                        <input type="text" class="input">
+                    </Address>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 ">
+                    <textarea name="complaint" id="" cols="80" rows="10"></textarea>
+                </div>
+                <div class="col-6 contact-block">
+                    <h2 class="aria-label display-5 text-secondary">Contact Details</h2>
+                        <div class="text-dark m-5 px-5 "> EMAIL:
+
+                        </div>
+                        <div class="text-dark m-5 px-5">Phone-No. :
+
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        
+
+
+    </div>
+
+
+
+    <footer>
+    </footer>
+
+
+</body>
+</html>
